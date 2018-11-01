@@ -20,7 +20,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.appContainer = React.createRef();
-    document.title = "React Dashboard"
+    document.title = "Sales Dashboard"
     this.state = {
       showDialog: false
     }
